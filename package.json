@@ -1,11 +1,16 @@
 {
   "name": "im-dhis2-localhost-login",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "dev-server.js",
   "scripts": {
-    "start": "npx -y http-server -p 3000"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
 }
